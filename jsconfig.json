@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/actions/*": [
+                "actions/*"
+            ],
+            "@/components/*": [
+                "components/*"
+            ],
+            "@/helpers/*": [
+                "helpers/*"
+            ],
+            "@/layout/*": [
+                "layout/*"
+            ],
+            "@/reducers/*": [
+                "reducers/*"
+            ],
+            "@/routing/*": [
+                "routing/*"
+            ],
+            "@/css/*": [
+                "assets/css/*"
+            ],
+            "@/images/*": [
+                "assets/images/*"
+            ],
+            "@/js/*": [
+                "assets/js/*"
+            ],
+            "@/config": [
+                "config.js"
+            ],
+            "@/screenshot": [
+                "screenshot.png"
+            ]
+        }
+    }
+}
