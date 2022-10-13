@@ -1,0 +1,18 @@
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #1f1f1f;
+  }
+
+  .padding-left {
+    padding-left: 15px
+  }
+  
+  .padding-right {
+    padding-right: 15px;
+  }
+
+  .ant-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
