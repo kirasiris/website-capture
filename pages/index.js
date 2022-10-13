@@ -69,7 +69,7 @@ const Index = () => {
 		<WrapperLayout title="Take a Screenshot!">
 			<Row>
 				<Col xs={24} sm={24} lg={12} className={`padding-right`}>
-					<Form name="add-website-capture" form={form} layout="vertical">
+					<Form form={form} layout="vertical">
 						<Form.Item
 							label="Url"
 							name="url"
@@ -95,7 +95,7 @@ const Index = () => {
 						</Form.Item>
 						<Form.Item label="Width" name="width">
 							<Input
-								id="with"
+								id="width"
 								name="width"
 								placeholder={`Set a width ${width}px`}
 								value={width}
@@ -107,7 +107,7 @@ const Index = () => {
 								}}
 							/>
 						</Form.Item>
-						<Form.Item label="Height" name="heigh">
+						<Form.Item label="Height" name="height">
 							<Input
 								id="height"
 								name="height"
